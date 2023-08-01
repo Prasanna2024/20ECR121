@@ -7,7 +7,6 @@ function ProductListing() {
   const { id, days } = JSON.parse(decodeURIComponent(data));
 
   useEffect(() => {
-    // Your logic here if needed
   }, [data]);
 
   return (
